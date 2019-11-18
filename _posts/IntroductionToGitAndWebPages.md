@@ -30,7 +30,7 @@ Now install git at [https://git-scm.com/downloads](https://git-scm.com/downloads
 
 Create a new folder on your computer and call it ```$YOURUSERNAME.github.io```
 
-Download "index.zip" from  [here](img/index.html.zip) and unzip "index.html" and put it in your folder
+Download "index.zip" from  [here](/img/index.html.zip) and unzip "index.html" and put it in your folder
 
 Open up your terminal in macOS/Linux or Powershell in Windows and type the following:
 ```
@@ -59,7 +59,7 @@ Let's break this down:
 
 You can now view your website at ```http://$YOURUSERNAME.github.io```	, which should look something like this
 
-[htmlsite](img/htmlsite.png)
+[htmlsite](/img/htmlsite.png)
 
 
 # Intro to Webpages
