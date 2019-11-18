@@ -3,15 +3,22 @@ layout: post
 title: Introduction to Git, Github and Webpages
 ---
 
-This tutorial will introduce the basics of how to use Git/Github. At the end of this tutorial, you will have created your own webpage which will be hosted on github pages.
+This tutorial assumes no knowledge of coding whatsoever. It is  split into 3 sections:
+1. basics of how to use Git/Github. 
+2. Basics of Webpages
+3. Basic of Static Pages
+
+At the end of this tutorial, you will have created your own webpage which will be hosted on github pages, which will look something like this:
+
+![staticpage]("/staticpage.png")
 
 # What is Git? Why Git? What is Github?
 
-Git is a distributed version control system made by Linus Torvalds, the creator of Linux. What "distributed version control system", means that a group of coders can collaborate together in real-time on the same project in a scalable, robust way, keeping track of all changes made, and developing projects in a efficient manner.
+Git is a distributed version control system made by Linus Torvalds, the creator of Linux. What "distributed version control system" means, is that a group of coders can collaborate together in real-time on the same project in a scalable, robust way, keeping track of all changes made, and developing projects ("repos") in a efficient manner.
 
 Github is a platform that support Git. There are alternatives such as Gitlab and Atlassian, but for now we will stick Github as it allows free hosting for your webpage.
 
-You should learn at learn Git and Github are used widely among industry, academia, and hobbyists, and moreover Git it is a crucial tool in any aspiring programmer's toolkit that you will definitely run into should you pursue coding in the future
+You should learn at learn Git and Github are used widely among industry, academia, and hobbyists; moreover Git it is a crucial tool in any aspiring programmer's toolkit that you will definitely run into should you pursue coding in the future
 
 # Intro to Git/ Github
 To begin with, sign up for a github account at [https://github.com/](https://github.com/)
@@ -61,21 +68,22 @@ You can now view your website at ```http://$USERNAME.github.io```	, which should
 
 ![htmlsite](/img/htmlsite1.png)
 
-If you want to learn more about git commands you can go to [guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
+This concludes the first section. If you want to learn more about git commands you can go to [guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
 
 # Intro to Webpages
 
-If you're familiar with the basis of HTML and CSS you can skip this part. Otherwise, open up ```"index.html"``` in notepad or your favourite code editor software. I use [Sublime Text](https://www.sublimetext.com/). Then you'll see this:
+If you're familiar with the basis of HTML and CSS you can gloss over this part. Otherwise, open up ```"index.html"``` in notepad or your favourite code editor. I personally use [Sublime Text](https://www.sublimetext.com/). Then you'll see this:
 
 ## HTML
 
 ![htmlsitesyntax](/img/htmlsitesyntax.png)
 
-Let's break this down. HTML is a markup language, in which we wrap content in tags, which meta-describes and has some effect on the content. For example, the tag ```<h1>``` in ```<h1> Heading 1 </h1>``` marks the text "Heading 1" a heading. We can change the content between the tags to anything we want, and that will change accordingly the content on the webpage. Note that in most cases, each opening tag, e.g. ```<h2>``` needs to be followed by a closing tag ```<h2>``` after your content
+Broadly speaking, HTML is responsible for the content on the webpage. HTML is a markup language, in which we wrap content in tags, which meta-describes and has some effect on the content. For example, the tag ```<h1>``` in ```<h1> Heading 1 </h1>``` marks the text "Heading 1" a heading. We can change the content between the tags to anything we want, and that will change accordingly the content on the webpage. Note that in most cases, each opening tag, e.g. ```<h2>``` needs to be followed by a closing tag ```<h2>``` after your content
 
 Here are some of the key tags you need to know for now:
 
 ```
+<h1 class = 'heading'> My Heading </h1>
 <div id = 'container'> </div>
 
 <a href = 'http://mywebsite.com'> My Link Text </a>
@@ -83,7 +91,9 @@ Here are some of the key tags you need to know for now:
 <img src = 'image.jpg'>
 ```
 
-```<div id = 'container'> </div>``` - This describes the content within these tags as a division with the id "container'. Alternatively we can use the class attribute and put something like ```<div class = 'content'> </div>```, which would be a div with the class "content". We'll see why ids and classes are important later
+```<h1 class = 'heading'> My Heading </h1>``` - This marks the text "My Heading" as a heading1 ```<h1>```, with the class ```"heading"```
+
+```<div id = 'container'> </div>``` - This describes the content within these tags as a division with the id "container'.  We'll see why ids and classes are important later
 
 ```<a href = 'http://mywebsite.com'> My Link Text </a>``` - This creates a link to ``` 'http://mywebsite.com' ``` with the text "My Link Text"
 
@@ -105,14 +115,39 @@ Replacing "file that i changed 1" and so on with the files that you changed. Now
 
 ## CSS
 
-Now we can add CSS. Again in terminal/powershell, type the following (now familiar commands):
+CSS is broadly responsible for the presentation and styling of your webpage. Open up "style.css" in your code editor. Let's take a look at the syntax:
+
+![csssitesyntax](/img/csssitesyntax.png)
+
+```css
+#container {
+	text-align:center;	
+}
+a {
+	font-size:200%;
+}
+.heading {
+	backround-color:silver;
+}
+```
+
+Let's break this down:
+
+```a {font-size:200%;}``` - This targets elements of type ```<a></a>``` and applys the property of making font inside 200% of the default size. We can assign as many properties to the elements we want by adding a new line ```property:property value;```, which we must end with a semicolon. You can look up CSS properties online
+
+```#container{...}``` - This selects all elements that have the id container (the ```#``` means an id) and applies the properties we want to it. We use ids for more 'one-off' elements that we want to apply properties to
+
+```.heading {...}``` - This selects all elements that have the class heading (the ```'.'``` means class) and applies the properties we want to them. We use classes for more general group of elements, e.g. headings
+
+
+Have a tinker around in the "style.css" file, and make the changes you want. Now we're going to add the CSS to our website. Again in terminal/powershell, type the following (now hopefully familiar commands):
 ``` 
 git add style.css
 git commit -m "adding stylesheet"
 git push -u origin master
 ```
 
-And now when you refresh your webpage at ```http://$USERNAME.github.io```
+And now when you refresh your webpage at ```http://$USERNAME.github.io```, it should look something like this:
 
 ![htmlsite](/img/htmlsite2.png)
 
@@ -124,10 +159,27 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
 
 # Intro to static pages
 
-Instead of creating a webpage from scratch, we can reuse the brilliant work that others have done, and build a website using a static site generator. These make use of Markdown, a markup language similar to HTML which is also used in Jupyter notebooks
+Instead of creating a webpage from scratch, we can reuse the brilliant work that others have done, and build a website using a static site generator. These use a static site generator (e.g. Ruby and Jekyll, Go and Hugo) make use of Markdown, a markup language similar to HTML which is also used in Jupyter notebooks, to allow you to purely focus on describing content.
 
+To begin with, clone the Minimal Jekyll theme by typing the following into your terminal/powershell:
 
+```git clone https://github.com/pages-themes/minimal```
 
+Backup the files you made before, "index.html", "style.css", and all the other files you previously used into a folder. Now open up the folder where you downloaded the Minimal theme
+
+![files](/img/files.png)
+
+Replace the files in your folder $USERNAME.github.io with the files in the Minimal theme folder. Then:
+
+``` 
+git add -A
+git commit -m "adding minimal theme"
+git push -u origin master
+```
+
+When you refresh http://$USERNAME.github.io you should get something like this:
+
+![staticsite1](/img/staticsite1.png)
 
 
 

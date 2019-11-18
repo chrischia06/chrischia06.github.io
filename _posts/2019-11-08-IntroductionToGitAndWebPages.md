@@ -165,11 +165,11 @@ To begin with, clone the Minimal Jekyll theme by typing the following into your 
 
 ```git clone https://github.com/pages-themes/minimal```
 
-Backup the files you made before, "index.html", "style.css", and all the other files you previously used into a folder. Now open up the folder where you downloaded the Minimal theme
+Backup the files you made before, "index.html", "style.css", and all the other files you previously used into another folder. Now open up the folder where you downloaded the Minimal theme
 
 ![files](/img/files.png)
 
-Replace the files in your folder $USERNAME.github.io with the files in the Minimal theme folder. Then:
+Move all the files in the Minimal theme folder to your $USERNAME.github.io folder . Then:
 
 ``` 
 git add -A
@@ -177,15 +177,46 @@ git commit -m "adding minimal theme"
 git push -u origin master
 ```
 
-When you refresh http://$USERNAME.github.io you should get something like this:
+When you refresh [http://$USERNAME.github.io](http://$USERNAME.github.io) you should get something like this:
 
 ![staticsite1](/img/staticsite1.png)
 
+Let's look that the files we need to change, starting with ```config.yml```
+
+| ![config](/img/config.png) | ![config](/img/config2.png) |
+
+
+Change the title, logo, and description to something you want.
+
+
+The other file we need to change is ```index.md```. If we open it up, it contains a brief overview of markdown and how to describe content in markdown. Take note of what you need and change the content to something you want.
+
+![indexmd](/img/indexmd.png)
+
+Now as usual, commit all your changes to Github
+
+``` 
+git add -A
+git commit -m "adding personalised changes to Minimisal Theme"
+git push -u origin master
+```
+
+Here's the final mockup I made using the Minimal Theme. If you're interested you it is available here:
+
+![indexmd](/img/staticsite.png)
 
 
 
 
+### Advanced
 
+You can obviously work with any static site theme you like. With Jekyll you can develop your static site locally. To do this, you need to install Ruby. Follow the instructions here [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)
+
+Then install jekyll by typing ``` gem install bundler jekyll``` into terminal/powershell.
+
+After you have cloned a static site theme fro Github, move to your static site folder and type ```bundle install``` into terminal/powershell. This will install any dependencies the theme needs.
+
+Now type ```bundle exec Jekyll serve```. This should deploy your server locally, for example at ```http://127.0.0.1:4000``` which you can open up in your browser. This allows you to test and visualise any changes you make before you deploy to github
 
 
 
