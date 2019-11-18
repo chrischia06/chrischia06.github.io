@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: "Chris Chia"
+title: Chris Chia's website
 
 # Short description of your site
-description: "We live in a stochastic world"
+description: Chris Chia's website
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,9 +20,11 @@ description: "We live in a stochastic world"
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "chrischia06.github.io"
+  Home: "https://chrischia06.github.io"
   About Me: "aboutme"
-  Articles, Notes, Projects: "blog"
+  Articles Notes & Projects:
+    - Introduction To Git/Github and Webpages: "IntroductionToGitAndWebPages"
+  
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -65,13 +67,13 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
-  # email: "someone@example.com"
-  # facebook: deanattali
+#  rss: true
+#  email: "someone@example.com"
+#  facebook: deanattali
   github: chrischia06
-  # twitter: daattali
+#  twitter: daattali
 #  reddit: yourname
- linkedin: chrischia06
+  linkedin: chrischia06
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
