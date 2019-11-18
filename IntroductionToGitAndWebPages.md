@@ -30,7 +30,7 @@ Now install git at [https://git-scm.com/downloads](https://git-scm.com/downloads
 
 Create a new folder on your computer and call it ```$YOURUSERNAME.github.io```
 
-Download "website.zip" from  [here](/img/website.zip) and unzip the "index.html" and "style.css" and place them in your folder
+Download "website.zip" from  [here](/img/website.zip) and unzip the "index.html","style.css", "image.png" and place them in your folder
 
 Open up your terminal in macOS/Linux or Powershell in Windows and type the following:
 ```
@@ -64,9 +64,11 @@ You can now view your website at ```http://$YOURUSERNAME.github.io```	, which sh
 
 # Intro to Webpages
 
-If you're familiar with the basis of HTML (and CSS) you can skip this part
+If you're familiar with the basis of HTML and CSS you can skip this part
 
 ![htmlsitesyntax](/img/htmlsitesyntax.png)
+
+Let's break this down. HTML is a markup language, in which we wrap content in tags, such as ```<h1> Heading 1 </h1>```
 
 If you want to learn more about HTML and CSS you can visit Mozilla Developer Network's excellent resources here:
 https://developer.mozilla.org/en-US/docs/Web/HTML
