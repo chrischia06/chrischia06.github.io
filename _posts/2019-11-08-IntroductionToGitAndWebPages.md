@@ -11,7 +11,7 @@ Git is a distributed version control system made by Linus Torvalds, the creator 
 
 Github is a platform that support Git. There are alternatives such as Gitlab and Atlassian, but for now we will stick Github as it allows free hosting for your webpage.
 
-You should learn at learn Git because it is a crucial tool in any aspiring programmer's toolkit, and both Git/Github are used widely among industry, academia, and hobbyists.
+You should learn at learn Git and Github are used widely among industry, academia, and hobbyists, and moreover Git it is a crucial tool in any aspiring programmer's toolkit that you will definitely run into should you pursue coding in the future
 
 # Intro to Git/ Github
 To begin with, sign up for a github account at [https://github.com/](https://github.com/)
@@ -65,6 +65,8 @@ You can now view your website at ```http://$YOURUSERNAME.github.io```	, which sh
 # Intro to Webpages
 
 If you're familiar with the basis of HTML (and CSS) you can skip this part
+
+![htmlsitesyntax](/img/htmlsitesyntax.png)
 
 If you want to learn more about HTML and CSS you can visit Mozilla Developer Network's excellent resources here:
 https://developer.mozilla.org/en-US/docs/Web/HTML
