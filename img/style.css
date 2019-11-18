@@ -8,3 +8,14 @@ a {
 	text-decoration:none;	
 	font-size:200%;
 }
+
+
+.heading {
+	font-family:Arial;
+	font-size:250%;
+}
+
+img {
+	border: 2px solid red;
+	border-radius:100%;
+}
