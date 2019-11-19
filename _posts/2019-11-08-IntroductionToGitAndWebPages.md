@@ -10,7 +10,7 @@ This tutorial assumes no knowledge of coding whatsoever. It is  split into 3 sec
 
 At the end of this tutorial, you will have created your own webpage which will be hosted on github pages, which will look something like this:
 
-![staticpage]("/img/staticpage.png")
+![staticsite]("/img/staticsite.png")
 
 # What is Git? Why Git? What is Github?
 
@@ -27,7 +27,7 @@ To begin with, sign up for a github account at [https://github.com/](https://git
 
 After you have logged in, create a repository at [https://github.com/new](https://github.com/new)
 
-It needs to be in the format ```$USERNAME.github.io```, e.g. ```chrischia06.github.io```
+It needs to be in the format ```$USERNAME.github.io```, e.g. ```chrischia06.github.io```. This is because Github allows you to host your own (or an organisation's) free webpage on their server for a website of this naming structure (unless you have your own domain)
 
 ![github](/img/createrepo.png)
 
@@ -152,8 +152,8 @@ And now when you refresh your webpage at ```http://$USERNAME.github.io```, it sh
 ![htmlsite](/img/htmlsite2.png)
 
 If you want to learn more about HTML and CSS you can visit Mozilla Developer Network's excellent resources here:
-https://developer.mozilla.org/en-US/docs/Web/HTML
-https://developer.mozilla.org/en-US/docs/Web/CSS
+[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 
