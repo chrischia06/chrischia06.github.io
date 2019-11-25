@@ -10,7 +10,7 @@ This tutorial assumes no knowledge of coding whatsoever. It is  split into 3 sec
 
 At the end of this tutorial, you will have created your own webpage which will be hosted on github pages, which will look something like this:
 
-![staticsite]("/img/staticsite.png")
+![staticsite](/img/staticsite.png)
 
 # What is Git? Why Git? What is Github?
 
