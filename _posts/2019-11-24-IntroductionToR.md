@@ -3,6 +3,6 @@ layout: post
 title: Introduction to R
 ---
 
-Introduction to R slides i made
+Introduction to R slides I made
 
 [staticsite](/file/IntroductionToR.pdf)
