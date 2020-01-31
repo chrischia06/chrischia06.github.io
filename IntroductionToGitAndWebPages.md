@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Git, Github and Webpages
 ---
 
-This tutorial assumes no knowledge of coding whatsoever. It is  split into 3 sections:
+This tutorial assumes no knowledge of coding whatsoever. It is split into 3 sections:
 1. basics of how to use Git/Github. 
 2. Basics of Webpages
 3. Basic of Static Pages

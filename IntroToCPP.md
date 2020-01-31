@@ -26,7 +26,7 @@ C++ is a _compiled_ language. What this means is that we first write our C++ cod
 	+ Mac - You need to install
 	+ Windows - 
 
-Alternatively, you can install [Virtualbox](https://www.virtualbox.org/) and install a Linux virtual machine
+Alternatively, you can install [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and install a Linux virtual machine
 
 For the second half of the tutorial, we will export the functions we have written in C++ so that it can be used in a website, an online calculator for the ST213 pricing models we have learnt. More specifically, we will use _WebAssembly_, a new framework that allows for the compiling of C++ to _Javascript_, a web scripting language (which our browsers can understand).
 
@@ -34,7 +34,7 @@ For the second half of the tutorial, we will export the functions we have writte
 Next, you need :
 
 + A browser that supports Javascript
-+ Install WebAssembly
++ Install WebAssembly - Follow these instructions [Webassembly](https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm)
 
 # Data Types
 
