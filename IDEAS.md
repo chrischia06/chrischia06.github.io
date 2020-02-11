@@ -26,7 +26,7 @@
 [x] Build a tool that can allow people to play with machine learning models in a dashboard / notebook(a la Hyperparameter tuning)
 [x] Webasm/C++ tutorial for delta hedging for FMS students
 
-[x] Scraper tutorial for job / event listings
+[x] Scraper tutorial for job /  bank event listings
 
 [x] Skipped.ly - Zen game?
 
@@ -38,9 +38,12 @@
 
 [x] Algo trading workshop ; mean reversion, trend, tail risk on synthetic data
 
-[x] Scala workshop
+[x] Scala FP workshop
 
-[x] Scrape all Bank events
+[x] CV sharig - share your CV and get shared knowledge;
+
+
+[x] Basic tutorial reform - see https://github.com/lse-my470/lectures; LSE Digital Skills Lab slides; Coding Society slides; MA300
 
 ## Other
 Derivative to align medical treatment incentives and payment for private healthcare ; Faster treatment, faster receivement of cash flows;
