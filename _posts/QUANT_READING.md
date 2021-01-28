@@ -89,7 +89,9 @@ https://mp.weixin.qq.com/s/4n3kxM3YjQQgb76vraXY1w
 
 # Financial Graph Learning
 
+**Algorithms for Learning Graphs in Financial Markets**
 https://arxiv.org/pdf/2012.15410v1.pdf
++ Alternating Direction Method of Multipliers
 
 # Neural Differential Equations
 
@@ -328,6 +330,9 @@ https://papers.nips.cc/paper/2018/file/5cf68969fb67aa6082363a6d4e6468e2-Paper.pd
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3500384
 
+**The value of the high, low and close in the estimation of Brownian motion**
+https://link.springer.com/article/10.1007/s11203-020-09229-xs
+
 # Pairs Trading
 
 https://docs.google.com/presentation/d/1oFpv7OUi3W9F2D30rEQRy_Ra5ejLtlCMnk9nTJnMDr4/edit#slide=id.gb70b23aaa3_1_0
@@ -349,6 +354,23 @@ http://www.thierry-roncalli.com/download/lwp-tf.pdf
 **Design and analysis of momentum trading strategies**
 
 https://arxiv.org/abs/2101.01006
+
+# Market Making
+
+
++ http://stanford.edu/class/msande448/2018/Final/Reports/gr5.pdf
+
+**Order-book modelling and market making strategies**
++ http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-028-Xiaofei.Lu_.pdf
+
+**Market Making and Mean Reversion**
++ https://www.cis.upenn.edu/~mkearns/papers/marketmaking.pdf
+
+**Electronic Market Making an Investigation**
++ https://www.cs.cmu.edu/~softagents/papers/CR_nevmyvaka_sycara_seppi.pdf
+
+**High Frequency Trading and the New-Market Makers**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1722924
 
 # Python for Finance
 

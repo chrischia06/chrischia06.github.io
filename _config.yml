@@ -22,8 +22,13 @@ description: Chris Chia's website
 navbar-links:
   Home: "https://chrischia06.github.io"
   About Me: "aboutme"
-  Articles Notes & Projects:
+  Articles and Notes:
     - Introduction To Git/Github and Webpages: "2019-11-08-IntroductionToGitAndWebPages"
+    - WebASM and C++ (WIP): "2020-01-30-IntroToCPP"
+  Experiments:
+    - Kyle's Single Period Model: "2020-09-14-Kyle-Single-Period-Model"
+  Projects: "projects"
+
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
