@@ -21,52 +21,7 @@
 + [Volatility](#volatility)
 
 
-# General Textbooks
 
-+ Advances in Financial Machine Learning
-+ Machine Learning for Asset Managers
-
-**Big Data Science in Finance**
-
-Chapter 2 - Neural Networks
-General introduction to, but with a few interesting references of how NNs can be used in problems in Finance.
-
-+ Aldridge and Avellaneda  (2019)
-+ Chen, Pelger, Zhu (2019) - GANs for stochastic discount factor
-+ Gu, Kelly, Xu (2019)
-+ Key Benefits of NNs: NNs can acommodate all factors (no need for feature selection), nonlinear dependence. Prepayments on mortgage modelling. From Linear, to S-curve / sigmoid, to NN approach (Sirignano, Sadhwani, and Giesecke (2018))
-+ Index Replication (Heaton, Polson, Witte 2016)
-
-Chapter 3 - Supervised Learning
-Discussion of Lasso, Ridge, KNN, Trees, SVMs
-+ Carrasco, Noumon (2012) - Ridge does not work in portfolio optimisation as it leads to portfolios with a (undesirably) large number of positions (since it doesn't shrink coefficients to 0)
-
-Chapter 4 - Semisupervised Learning
-+ Generative, Discriminative, Graphical Models. Incorporating analyst estimates.
-
-Chapter 5 - Unsupervised Learning
-+ PCA, SVD. PCA application to factor models.
-
-Chapter 6 - Factor Models
-+ Fan, Liao, Mincheva (2013). POET
-+ Kelly, Pruitt, Su (2017). Instrumented PCA, allow time varying factor loadings
-+ Fan, Liao, Wang (2016) Projected PCA. PCA with other basis functions, splies, polynomial terms, wavelets
-+ Avellanada and Lee (2010). PCA on Correlation Matrix instead of Covariance Matrix.
-+ Avellanada (2019). Hierarchial PCA. Within Sectors, Between Sectors
-+ PCA/SVD Advantages: 'Interpretability' of Factors/ Economic explanation in Equities and Fixed Income
-
-Chapter 7 - Data as a Signal vs Noise
-+ Noise in Covariance Matrices. Wigner Matrices. Marcenko-Pastur distribution. Karhunen Loeve Transform. Missing Data (Missing at random, missing at not random). Imputation. Tracy Widom distribution for Missing Eigenvalues
-
-Chapter 8 - Unsupervised Learning
-+ Options: Put-Call implied vol spread. Risk Neutral Skew. Vol of implied vol. Option to stock volume ratio
-+ Christoffersen, Fournier, and Jacobs (2017). PCA on  Implied Vol; regressed Implied Vol against TTM (days), Moneyness.
-+ Muravyev, Vasquez, and Wang (2018). optionable US Stocks for 1996-2014, demeaned correlations of vol surfaces using PCA.
-+ Cont, Fonseca (2002). Variance of Correlation Matrix DAX options can be explained with 3 PCs.
-+ Markov Chains. Perron-Frobenius Theorem.
-
-Chapter 9 - Clustering
-+ K Means, Spectral. Davis-Kahan theorem.
 
 # Asset Pricing
 
@@ -90,9 +45,6 @@ https://sci-hub.tw/https://doi.org/10.1080/713665670
 
 **Deep Dynamic Factor Models**
 https://arxiv.org/pdf/2007.11887.pdf
-
-**Machine Learning for Factor Investing**
-http://www.mlfactor.com/
 
 # Portfolio Optimisation
 
@@ -139,9 +91,6 @@ https://mp.weixin.qq.com/s/4n3kxM3YjQQgb76vraXY1w
 
 **Algorithms for Learning Graphs in Financial Markets**
 https://arxiv.org/pdf/2012.15410v1.pdf
-
-**Learning Undirected Graphs in Financial Markets**
-https://arxiv.org/abs/2005.09958
 + Alternating Direction Method of Multipliers
 
 # Neural Differential Equations
@@ -169,9 +118,6 @@ https://arxiv.org/abs/1706.10059
 
 **Using Reinforcement Learning in the Algorithmic Trading Problem**
 https://arxiv.org/abs/2002.11523
-
-**Reinforcement Learning for Market Making in a Multi-agent Dealer Market**
-https://arxiv.org/abs/1911.05892
 
 
 # Autoencoders
@@ -204,8 +150,6 @@ https://arxiv.org/pdf/2002.02008.pdf
 + https://www.lpsm.paris/pageperso/crepey/papers/nowcasting-networks.pdf
 
 + https://github.com/mChataign/smileCompletion/blob/master/TensorflowNowcasting.ipynb
-
-+ https://rickyhan.com/jekyll/update/2017/09/14/autoencoders.html
 
 
 # GANs
@@ -262,10 +206,6 @@ https://arxiv.org/abs/1904.04912
 
 + Train Deep Neural Network by optimising sharpe
 
-**Temporal Latent Auto-Encoder: A Method for Probabilistic Multivariate TimeSeries Forecasting**
-
-https://arxiv.org/pdf/2101.10460.pdf
-
 
 # Market Microstructure
 
@@ -292,10 +232,6 @@ https://arxiv.org/pdf/2008.09481.pdf
 
 Autoencoder on daily, weekly, monthly features, weight initialisations based on restricted boltzmann machine
 
-**Adaptive trading strategies across liquidity pools, Baldacci, Manzuk (2020)**
-https://arxiv.org/pdf/2008.07807.pdf
- Risk 2021 Rising stars in quant finance
-
 
 # Limit Order Book
 
@@ -313,7 +249,7 @@ https://arxiv.org/abs/1904.03058
 
 + The Man Who solved the market
 
-+ Emmanuel Derman - My Life as a Quant
++ Emmanuel Derman - my life as a Quant
 
 + Scott Patterson  
 
@@ -324,9 +260,6 @@ https://arxiv.org/abs/1904.03058
 **Deep optimal stopping**
 	
 https://arxiv.org/pdf/1804.05394.pdf	
-
-**Offline Algorithms for Low Frequency Trading**
-https://queue.acm.org/detail.cfm?id=3448307
 
 ## Tactical Investment Algorithms	
 
@@ -366,11 +299,6 @@ Instability as the variance of ranks \(Var_{j} = Var(r_{1j}...r_{nj}) \)
 Instability index as the average of top k features instability scoes
 
 https://www.predictnow.ai/blog/the-amazing-efficacy-of-cluster-based-feature-selection/
-
-**Numerai Forum - Model Diagnostics: Feature Exposure**
-https://forum.numer.ai/t/model-diagnostics-feature-exposure/899
-
-+ The idea is that models should not be overly dependent on single features in the Numerai tournament, since the features and target might have time varying dependence/correlations. This user proposes "Feature Neutralisation", which from my understanding is just orthogonalising model predictions using linear predictions
 
 
 # Volatility
@@ -455,125 +383,9 @@ Artificial Intelligence for Finance, Python for Algorithmic Trading
 Not that useful personally, for both financial theory and machine learning theory it would be better to read a textbook specifically on that subject
 
 
-**Ernie Chan - Quantitative Trading (2008)**
-
-Mostly a qualitative discussion about quantitative trading, and its philosophical aspects, with some light technical discussion. Would definitely be worth a read if you are a beginner (quite a short read at 200 pages). The code is in MATLAB, but the concepts can be translated to other languages.
-
-Chapter 2: Idea Generation
-
-> many strategies described by academics are either too complicated, out of date (perhaps the once-profitable strategies have already lost their power due to competition), or require expensive data to backtest
-
-+ Short bottom ten and long top ten  [http://epchan.blogspot.com/2007/11/seasonal-trades-in-stocks.html](http://epchan.blogspot.com/2007/11/seasonal-trades-in-stocks.html) (( based on [Heston, Sadka (2005) - Seasonality in the Cross-Section of Expected Stock Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=687022) ))
-
-+ Constraints on strategies: your hours, technical proficiency in programming, capital.
-+ Concerns: drawdowns, survivorship bias, turnover/ trading frequency, benchmark, data-snooping/look-ahead bias
-
-Chapter 3: Backtesting
-
-+ Metrics: Sharpe (mentions risk free rate adjustment can be ignored in some cases, such as if portfolio is dollar-neutral and thus funding rate would be near 0), Max Drawdown, Max Drawdown duration
-+ Example 3.6: GLD and GLX pairs trade. Uses OLS to determine hedge ratio.
-+ Example 3.7: Mean Reversion strategy from a paper by Andrew Lo, which claims to have 4.47 Sharpe (no transaction costs): Short worst performing stocks by one day return , long best performing stocks by one day return. On Chan's experiment, assuming a 0.05 transaction cost per trades, then Sharpe decreases to 0.25 on S&P500 - since the paper's returns are generated on mostly small cap. In Example 3.8, Chan uses Open prices instead of Close, which increases sharpe to 0.78
-
-Chapter 4 is on setting up your business, Chapter 5 on execution
-
-Chapter 6 : Risk Management
-+ Markowitz Portfolio . Kelly Criterion
-
-Chapter 7
-> "Trading strategies can be profitable only if securities prices are either mean-reverting or trending. Otherwise, they are random- walking, and trading will be futile.". 
-> "Unless the expected earnings of a company have changed, stock prices will be mean reverting"
-
-+ Errors in financial price/quote/tick data. Survivorship bias
-+ PostEarnings announcement drift
-+ Momentum driven by large institutional orders, animal spirits
-+ Regime Switching - Volatility Regime switching (GARCH). Estimation can be done by assuming latent regimes, and defining transition probabilities. Markov switching model.
-+ Turning point models
-+ Example: Neural Network approach? "How large a percent change is sufficient to trigger a regime switch? What should N be in the N-day high/low con- dition? And how long does the new regime generally last? (In other words, what is the optimal holding period?)". Uses one day returns of Goldman Sachs against future k-period returns.
-+ Stationarity, Cointegration
-
-**Ernie Chan - Algorithmic Trading - Winning Strategies and their rationale (2013)**
-
-Chapter 1: backtesting
-
-+ Pitfalls :Lookahead bias, data-snooping (too many parameters)
-> There is a general approach to trading strategy construction that can min- imize data-snooping bias: make the model as simple as possible, with as few parameters as possible
-+ Linearity of pricing, and capital allocation. Can also use the ranks of stocks given a certain factor, and their signed correlation with the target (Spearman correlation?)
-+ Assume a distribution for the Sharpe Ratio (e.g. Normal(0, 1)). Then we can test the p-value under the distribution.
-
-> Example: A neural net trading model that has about 100 nodes gener- ates a backtest Sharpe ratio of 6.
-> "My alarms always go off whenever I hear the term neural net trad- ing model, not to mention one that has 100 nodes."
-
-Chapter 2: Mean Reversion
-+ Ad fuller test (test for stationarity under a linear model). Hurst Exponent (measure of self similarity. For trending H> 0.5, mean reverting H < 0.5). Variance Ratio Test
-+ Cointegration. Cointegrated Ad-Fuller test. Johansen Test.
-
-Chapter 3: implementing mean reversion
-+ Bollinger Bands; enter and exit based on z-scores of deviation. Schoenberg and Corwin (2010). "you can always find a single entry/exit level that will generate a higher average return in a backtest" - which is the 'all in'
-+ Kalman Filter
-
-Chapter 4: Mean reversion on stocks and ETFs
-+ Buy on gap
-
-Chapter 5: Mean reversion on currencies and futures
-+ Calendar spreads, cross rates
-
-Chapter 6: Interday momentum strategies
-+ Test for time series momentum: Hurst Exponent. Autocorrelation/Correlation between different lagged returns / sign of returnss
-+ Moskowitz,Yao, and Pedersen. buy (sell) the future if it has a positive (negative) 12-month return, and hold the position for 1 month  
-+ futures have autocorrelation due to roll returns
-+ cross sectional
-+ mutual fund inflows/outflows 
-
-Chapter 7: Intraday momentum:
-+ High frequency strategies:  If the bid size is much bigger than the ask size, expect the price to tick up and vice versa. This idea is backed by academic research.
-+ ratio trade:  join the bid only when the original bid size is much larger than the ask size.
-+ In markets where the bid-ask spread is bigger than two ticks, there is another simple trade to benefit from the expectation of an uptick. Simply place the buy order at the best bid plus one tick. If this is filled, then we place a sell order at the best ask minus one tick and hope that it is filled. But if it is not, we can probably still sell it at the original best bid, with the loss of commissions plus one tick.This is called ticking or quote matching. For this trade to be profitable, we need to make sure that the round trip commission per share is less than the bid-ask spread minus two ticks.This strategy is il- lustrated in Figure 7.3.
-
-+ Even when there is no preexisting buying pressure or bid-ask size imbal- ance, we can create the illusion of one (often called momentum ignition).This works for markets with time priority for orders instead of using pro-rata fills. Let’s assume we start with very similar best bid and ask sizes.We will place a large buy limit order at the best bid to create the impression of buy- ing pressure, and simultaneously place a small sell limit order at the best ask. This would trick traders to buy at the ask price since they anticipate an uptick, filling our small sell order. At this point, we immediately cancel the large buy order.The best bid and ask sizes are now roughly equal again. Many of those traders who bought earlier expecting a large buying pressure may now sell back their holdings at a loss, and we can then buy them at the original best bid.This is called flipping.
-
-+ nce support (resistance) levels are breached, prices will go further down (up) for a while (Osler, 2000, 2001). These support and resistance levels can be those reported daily by banks or brokerages, or they can just be round numbers in the proximity of the cur- rent price levels.This short-term price momentum occurs because of the large number of stop orders placed at or near the support and resistance levels.
-
-Chapter 8: Risk Management
-
-**Ernie Chan - Machine Trading (2017)**
-+ Data Vendors: CSI Data, Quandl, CSRP, ORATS, ivolatility.com, quantgo.com, compustat, terminal
-+ Calmar Ratio
-
-Chapter 2: Factor Models
-+ Time Series factors, Cross Sectional factors (Fama-French)
-+ Implied Moments from Option prices.  Bali, Hu, and Murray (2015). Stock returns are correlated to these implied moments, which are functions of ATM put and call imlied volatilities. Authors present CAGR 9.68%, Chan finds 0; no predictive ability on large-cap stocks.
-+ Change in implied vol. Put call implied vol
-+ Stepwise regression; select factors based on AIC/BIC. Regression not necessarily needed; Rank stocks by some factor and purchase top kth quartile. Ranking is more robust to outliers and high leverage points.
-
-Chapter 3: Time Series
-+ ARIMA
-
-Chapter 6:
-+ Order flow is a signed volume. If only price and volume are available Tick rule: trade that transacts price higher than previous trade generates buy, and below then sell.
-+ Bulk Volume Classification  (Lopes de Prado and O'Hara). Buy order flow is $V \cdot \Phi^{-1}(\frac{\Delta P}{\sigma \Delta P})$, and Sell order flow is:  $-V \cdot [1 - \Phi^{-1}(\frac{\Delta P}{\sigma \Delta P})]$
-+ Order flow strategy: " buy if aggregate order flow is greater than a threshold, exit a long position if it is not positive, and vice versa for shorts."
-+ Order Book Imbalance: \frac{V_{B} - V_{A}}{V_{B} + V_{A}}
-
-### Mean Reversion
-
-**A closed-form solution for optimal mean-reverting trading strategies**
-https://arxiv.org/abs/2003.10502
-
 
 # Websites
 
-
-**Rob Carver's Blog**
 https://qoppac.blogspot.com/
 
 https://pythonforfinance.net/
-
-
-# Places to find papers
-
-https://www.imperial.ac.uk/mathematics/postgraduate/msc/mathematical-finance/project-and-thesis/
-
-# Data
-+ https://www.cuemacro.com/2021/01/30/are-there-sources-of-free-data-for-markets/
-
-

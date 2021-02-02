@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WebAssembly & C++
+subtitle: Using C++ and WebAssembly to make a Black-Scholes pricer in browser
 ---
 
 # WebAssembly & C++ (WORK IN PROGRESS)

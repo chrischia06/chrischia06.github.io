@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction to Git, Github and Webpages
+subtitle: Basic Git and setting up a static site.
 ---
 
 This tutorial assumes no knowledge of coding whatsoever. It is  split into 3 sections:

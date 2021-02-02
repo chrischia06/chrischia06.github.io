@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Starter Notebook for LSESU Machine Learning Society Datathon
+subtitle: Intro to bag of words and for text classification.
 ---
 
 
