@@ -1,10 +1,27 @@
 ---
 layout: page
 title: Projects
-<!-- subtitle: Why you'd want to go on a date with me -->
 ---
 
 <!-- Collaborai -->
+# Data Science
+## Insurance Pricing Competition
++ **Dec 2020 - **
++ [GitHub Repo](https://github.com/chrischia06/insurance_pricing)
+
+## EY Nextwave Data Science Challenge
++ [GitHub Repo](https://github.com/chrischia06/EY-Nextwave-Data-Science-Challenge-2019)
+
+# Quant
+
+## Algo Trading 
++ **Feb 2021 - **
++ [Repo](https://github.com/chrischia06/AlgoTradingSimulatedPaths/)
+
+## Limit Order Book Forecasting
++ [GitHub Repo](https://github.com/chrischia06/XTXForecastingChallenge)
+
+# Software Engineering / Web Dev
 
 ## Covid Dashboard
 + For [IC Hack 20](https://ichack.org/)
@@ -22,8 +39,3 @@ title: Projects
 
 
 
-## Limit Order Book Forecasting
-+ [GitHub Repo](https://github.com/chrischia06/XTXForecastingChallenge)
-
-**EY Nextwave Data Science Challenge**
-+ [GitHubRepo](https://github.com/chrischia06/EY-Nextwave-Data-Science-Challenge-2019)

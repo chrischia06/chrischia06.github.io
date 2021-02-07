@@ -109,27 +109,7 @@ https://www.cfainstitute.org/en/research/multimedia/2020/machine-learning-in-por
 
 + Nested Cluster Optimisation - Cluster correlation matrix - intracluster weights, system reduction, inter-cluster weights, dot product - reduce N x N matrix to  k x k correlation matrix of clusters
 
-# Derivatives Pricing
 
-##  Neural networks for option pricing and hedging: a literature review
-https://arxiv.org/pdf/1911.05620.pdf
-
-Features
-+ Stock Price, Option Strike sometimes used seperately, sometimes ratio ("moneyness")
-	+ Moneyness is stationary, combining may reduce overfitting 	
-+ Historical Volatility, VIX, implied volatility, GARCH forecasts of volatility
-
-
-## Deep Hedging: Learning to Simulate Equity Options Markets
-
-
-## Deep Hedging
-https://arxiv.org/pdf/1802.03042.pdf
-
-
-## Deeply Learning Derivatives
-https://arxiv.org/abs/1809.02233
-https://mp.weixin.qq.com/s/4n3kxM3YjQQgb76vraXY1w
 
 
 # Risk Management
@@ -159,6 +139,9 @@ https://quantdare.com/reinforcement-learning-for-trading/
 **https://arxiv.org/pdf/1901.08740.pdf**
 
 https://arxiv.org/pdf/1901.08740.pdf
+
+## D. Lu,Agent inspired trading using recurrent reinforcement learning and lstmneural networks, arxiv (2017)
+https://arxiv.org/pdf/1707.07338.pdf
 
 
 **Deep Reinforcement Learning for Active High Frequency Trading**
@@ -208,6 +191,10 @@ https://arxiv.org/pdf/2002.02008.pdf
 + https://rickyhan.com/jekyll/update/2017/09/14/autoencoders.html
 
 
+**Hayou, S. Cleaning the correlation matrix with a denoising autoencoder**
++ https://arxiv.org/pdf/1708.02985.pdf
++ Natixis Prize 2018
+
 # GANs
 
 
@@ -229,32 +216,7 @@ https://arxiv.org/pdf/2007.04838.pdf
 https://arxiv.org/abs/2006.14498
 
 
-# Time Series Forecasting
 
-**Time Series Forecasting With Deep Learning: A Survey**
-
-https://arxiv.org/abs/2004.13408
-
-+ Deep Neural Networks as an encoder-decoder architecture for time series prediction
-+ Convolutional Neural Networks akin to AutoRegressive Model; careful selection of the window k needed,  ability to learn long term dependencies limited; Dilated convolutions alleviate this : "Dilated convolutions can hencebe interpreted as convolutions of a down-sampled version of the lower layer features – reducingresolution to incorporate information from the distant past. As such, by increasing the dilation ratewith each layer, dilated convolutions can gradually aggregate information at different time blocks,allowing for more history to be used in an efficient manner". Finally, CNNs are similar to Finite Impulse Response Filters in digital ssignal processing.
-+ Recurrent Neural Networks - contains a hidden internal state which is updated and can learn long term dependencies, but suffer from vanishing/exploding gradients. Long Short Term Memory alleviates this by having a cell state to store long-term information modulated by forget gates. Finaally, RNNs are similar to Bayesian filtering.
-+ Attention: allow the network to focus on significant time steps in the past through dynamically generated weights; Transformer architecture; 
-+ Point estimates; Probabilistic outputs
-+ Multi Horizon Forecasting: Iterative approach - use Monte Carlo estimates; Directly use Seq2Seq
-+ M4 competition: pure machine learning models did not perform extremely well - stationarity and input preprocessing; Hybrid Models such as Exponentially Smoothed RNN & Deep State Space Models
-+ Interpretability: Post-hoc - LIME, Shapley values; Inherent - Attention weights
-+ Causal/Counterfactual;
-+ Frontier - continuous time -neural ODES, irregular intervals, hierarchial models using Deep Learning
-
-**Industrial Forecasting with Exponentially Smoothed Recurrent Neural Networks**
-
-https://arxiv.org/pdf/2004.04717.pdf
-
-**N-BEATS: Neural basis expansion analysis for interpretable time series forecasting**
-
-https://arxiv.org/abs/1905.10437
-
-https://eng.uber.com/m4-forecasting-competition/
 
 **Enhancing Time Series Momentum Strategies Using Deep Neural Networks, Bryan Lim, Stefan Zohren, Stephen Roberts**
 
@@ -265,6 +227,12 @@ https://arxiv.org/abs/1904.04912
 **Temporal Latent Auto-Encoder: A Method for Probabilistic Multivariate TimeSeries Forecasting**
 
 https://arxiv.org/pdf/2101.10460.pdf
+
+**Risk Management with GenerativeAdversarial Networks**
+https://www.natixis.com/natixis/en/lukas-benedikt-fiechtner-s-thesis-risk-management-with-generative-adversarial-networks-rpaz5_127493.html
++ Natixis Prize 2020
+
+
 
 
 # Market Microstructure
@@ -308,6 +276,24 @@ https://arxiv.org/pdf/2010.01241.pdf
 **A stochastic PDE model for limit order book dynamics**
 https://arxiv.org/abs/1904.03058
 
+**Benchmark dataset for mid-price forecasting of limit orderbook data with machine learning methods**
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.2543
+
+**Mid-Price Movement Predictionin Limit Order Books UsingFeature Engineering and Machine Learning**
+https://trepo.tuni.fi/bitstream/handle/10024/117394/978-952-03-1288-6.pdf?sequence=5&isAllowed=y
+
+**XTX Forecasting Challenge First Place - Andrey Rybin**
++ Slides: https://gh.mltrainings.ru/presentations/Rybin_XTX2019.pdf
++ Presentation: https://www.youtube.com/watch?v=Nv7l3_ealKc
+
+
+Code Samples:
++ https://github.com/hamzah2304/DeepLOB/blob/main/DeepLOB.ipynb
++ https://github.com/zcakhaa/DeepLOB-Deep-Convolutional-Neural-Networks-for-Limit-Order-Books
++ https://github.com/Vibhuti49/DeepLOB/blob/main/LOB.ipynb
++ https://github.com/MingyuZha/Deep_Learning_In_Limited_Order_Books
++ https://github.com/jessgess/deep-learning-for-order-book-price-and-movement-predictions
++ https://github.com/FSUHeting/DL_LOB_Trading_and_MidPirce_Movement
 
 # Quant Culture
 
@@ -383,18 +369,17 @@ https://arxiv.org/pdf/2002.02481.pdf
 
 https://arxiv.org/pdf/1901.09647.pdf
 
+**The quadratic rough Heston model and the joint S&P 500/VIX smile calibration problem**
+https://arxiv.org/abs/2001.01789
+
+**Tegner, A Probabilistic Approach toNonparametric Local Volatility**
+https://arxiv.org/pdf/1901.06021.pdf
+
 # Correlation Matrices
 
 **Classification of Correlation Matrices using SPDNet with Riemannian Batch Normalization**
 
 https://marti.ai/ml/2021/01/22/spdtorchnet.html
-
-# Time Series
-
-https://link.springer.com/article/10.1007/s10618-019-00619-1
-
-https://papers.nips.cc/paper/2018/file/5cf68969fb67aa6082363a6d4e6468e2-Paper.pdf
-
 
 # Mathematical Finance
 
@@ -571,9 +556,12 @@ https://pythonforfinance.net/
 
 # Places to find papers
 
-https://www.imperial.ac.uk/mathematics/postgraduate/msc/mathematical-finance/project-and-thesis/
++ Imperial Theses https://www.imperial.ac.uk/mathematics/postgraduate/msc/mathematical-finance/project-and-thesis/
++ Oxford Msc MCF Theses
++ Natixis Prize: https://www.natixis.com/natixis/en/prize-for-best-master-s-thesis-in-quantitative-finance-rpaz5_115028.html
 
 # Data
++ https://www.sec.gov/data/foiadocsfailsdatahtm
 + https://www.cuemacro.com/2021/01/30/are-there-sources-of-free-data-for-markets/
 
 
