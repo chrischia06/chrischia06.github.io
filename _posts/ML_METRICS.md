@@ -35,6 +35,18 @@ https://arxiv.org/pdf/1705.08821.pdf
 **Deep IV: A Flexible Approach for Counterfactual Prediction**
 http://proceedings.mlr.press/v70/hartford17a/hartford17a.pdf
 
+**Machine Learning: An Applied Econometric Approach**
+https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.2.87
+
+**Counterfactual Fairness**
+https://arxiv.org/pdf/1703.06856.pdf
++ Fairness through unawareness : does not use information from attributes A. Individual fairness, similar individuals should have similar predictions.
+
+**Towards Causal Representation Learning**
+https://arxiv.org/pdf/2102.11107.pdf
+
+https://matheusfacure.github.io/python-causality-handbook/landing-page.html
+
 ### Libraries
 + EconML (Python)
 + CausalML (R)
@@ -53,4 +65,5 @@ http://proceedings.mlr.press/v70/hartford17a/hartford17a.pdf
 
 
 Generic Machine Learning Inference on Heterogenous Treatment Effects in Randomized Experiments" by Victor Chernozhukov, Mert Demirer, Esther Duflo and Iván Fernández-Val.
+
 

@@ -63,9 +63,32 @@ https://arxiv.org/pdf/1907.11162.pdf
 **Vivesh Shah (Masters Thesis) A Comparative Study of Univariate Time-series Methods for Sales Forecasting**
 
 
+**Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting**
+
+https://arxiv.org/abs/1912.09363
+
+**Time Series Forecasting With Deep Learning: A Survey**
++ https://arxiv.org/pdf/2004.13408.pdf
+
+**Recurrent Neural Filters: Learning IndependentBayesian Filtering Steps for Time Series Prediction**
++ https://arxiv.org/pdf/1901.08096.pdf
+
+**Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting (AAAI'21 Best Paper)**
++ https://arxiv.org/abs/2012.07436
++ https://github.com/zhouhaoyi/Informer2020
+
+**Industrial Forecasting with ExponentiallySmoothed Recurrent Neural Networks**
+https://arxiv.org/pdf/2004.04717.pdf
+
+**Sveinn Steinarsson, Downsampling Time Series for Visual Representation, Masters Thesis**
++ https://skemman.is/bitstream/1946/15343/3/SS_MSthesis.pdf
++ Hacker News: https://news.ycombinator.com/item?id=26401935
+
+
 
 ## Libaries
 
 + Multivariate Singular Spectrum Analysis : https://github.com/kieferk/pymssa
 + tspDB (prediction directly from SQL): https://tspdb.mit.edu/
++ Long Range Arena (LRA) benchmark for transformer architectures: https://github.com/google-research/long-range-arena
 

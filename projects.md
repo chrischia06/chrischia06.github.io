@@ -5,8 +5,15 @@ title: Projects
 
 <!-- Collaborai -->
 # Data Science
+
+## AI Hack 2021
+
++ **Feb 20th 2021 - Feb 21st 2021**
++ The task, and data provided was to do with predicting crop yields; essentially spatio-temporal modelling
++ []
+
 ## Insurance Pricing Competition
-+ **Dec 2020 - **
++ **Dec 2020-March 2021**
 + [GitHub Repo](https://github.com/chrischia06/insurance_pricing)
 
 ## EY Nextwave Data Science Challenge
@@ -15,7 +22,7 @@ title: Projects
 # Quant
 
 ## Algo Trading 
-+ **Feb 2021 - **
++ **Feb 2021 -**
 + [Repo](https://github.com/chrischia06/AlgoTradingSimulatedPaths/)
 
 ## Limit Order Book Forecasting

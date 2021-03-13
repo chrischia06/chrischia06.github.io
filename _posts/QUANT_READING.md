@@ -1,8 +1,6 @@
 # Table of Contents
 
-+ [Asset Pricing](#asset-pricing)
-
-+ [Factor Models](#factor-models)
++ [Asset Pricing](#asset-pricing)	
 
 + [Portfolio Optimisation](#portfolio-optimisation)
 
@@ -24,7 +22,9 @@
 # General Textbooks
 
 + Advances in Financial Machine Learning
-+ Machine Learning for Asset Managers
+
+**Machine Learning for Asset Managers**
++ Gautier Marti review: https://gmarti.gitlab.io/qfin/2020/04/12/commented-summary-machine-learning-for-asset-managers.html
 
 **Big Data Science in Finance**
 
@@ -70,7 +70,7 @@ Chapter 9 - Clustering
 
 # Asset Pricing
 
-**Emprical properties of asset returns: stylised facts and statistical issues Rama Cont**
+**Rama Cont , Empirical properties of asset returns: stylised facts and statistical issues (2001)**
 
 https://sci-hub.tw/https://doi.org/10.1080/713665670
 
@@ -86,13 +86,12 @@ https://sci-hub.tw/https://doi.org/10.1080/713665670
 + Volume/vol correlation
 + Asymmetry in time scales
 
-# Factor Models
+"Quantum Equilibrium-Disequilibrium": Asset Price Dynamics, Symmetry Breaking, and Defaults as Dissipative Instantons
++ https://arxiv.org/pdf/1808.03607.pdf
 
-**Deep Dynamic Factor Models**
-https://arxiv.org/pdf/2007.11887.pdf
+**Baitinger, E., Forecasting asset returns with network‐based metrics: A statistical and economic analysis (2021)**
++https://onlinelibrary.wiley.com/doi/10.1002/for.2772
 
-**Machine Learning for Factor Investing**
-http://www.mlfactor.com/
 
 # Portfolio Optimisation
 
@@ -109,11 +108,30 @@ https://www.cfainstitute.org/en/research/multimedia/2020/machine-learning-in-por
 
 + Nested Cluster Optimisation - Cluster correlation matrix - intracluster weights, system reduction, inter-cluster weights, dot product - reduce N x N matrix to  k x k correlation matrix of clusters
 
+**Deep Learning for Finance: Deep Portfolios**
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2838013
+
+
+# ETFs
+
+**Sparse Index Tracking Using Sequential Monte Carlo (2021)**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3799766
++ Motivation - replicate a ETF / index with a sparse amount of assets, since a "perfect" replication by matching the weights of the index requires transacting in hundreds of assets
++ Previous approaches, L1 / L2 penalised regression
+
+
+
 
 
 
 # Risk Management
 
+
+**Spectral backtests of forecast distributions with application to risk management (2019)**
+https://arxiv.org/pdf/1708.01489.pdf
+
+**Validating Market Risk Models UsingRealized PIT Values (PHd Thesis 2017)**
+https://core.ac.uk/download/pdf/186333072.pdf
 
 # Financial Graph Learning
 
@@ -156,6 +174,19 @@ https://arxiv.org/abs/2002.11523
 **Reinforcement Learning for Market Making in a Multi-agent Dealer Market**
 https://arxiv.org/abs/1911.05892
 
+**Bridging the Gap Between Markowitz Planning and Deep Reinforcement Learning**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702112
+
+
+**Knowledge discovery with Deep RL for selecting financial hedges**
++ https://aaai-kdf.github.io/kdf2021/assets/pdfs/KDF_21_paper_11.pdf
+
+**Time your hedge with Deep Reinforcement Learning**
++ https://arxiv.org/pdf/2009.14136.pdf
+
+**FinRL: A Deep Reinforcement Learning Library forAutomated Stock Trading in Quantitative Finance**
++ https://arxiv.org/pdf/2011.09607.pdf
++ https://github.com/AI4Finance-LLC/FinRL-Library
 
 # Autoencoders
 
@@ -179,16 +210,14 @@ https://arxiv.org/pdf/2002.02008.pdf
 
 + Use Autoencoder reconstruction as an alternative to PCA
 
-** Detecting Changes in Asset Co-MovementUsing the Autoencoder Reconstruction Ratio**
 
-https://arxiv.org/pdf/2002.02008.pdf
 
 **Nowcasting Networks**
 + https://www.lpsm.paris/pageperso/crepey/papers/nowcasting-networks.pdf
 
 + https://github.com/mChataign/smileCompletion/blob/master/TensorflowNowcasting.ipynb
 
-+ https://rickyhan.com/jekyll/update/2017/09/14/autoencoders.html
++ https://github.com/mChataign/DupireNN
 
 
 **Hayou, S. Cleaning the correlation matrix with a denoising autoencoder**
@@ -198,12 +227,16 @@ https://arxiv.org/pdf/2002.02008.pdf
 # GANs
 
 
-**Quant GANs:Deep Generation of Financial Time Series Magnus Wiese1, 2,∗Robert Knobloch2Ralf Korn1, 2Peter Kretschmer1**
+**Quant GANs:Deep Generation of Financial Time Series Magnus Wiese1, 2,∗Robert Knobloch2Ralf Korn1, 2Peter Kretschmer (2019)**
 
-https://arxiv.org/pdf/1907.06673.pdf
++ https://arxiv.org/pdf/1907.06673.pdf
 
 + Temporal convolutional Neural Networks as architecture
 
+**Adriano Soares Koshiyama, Nick Firoozye, and Philip C. Treleaven. , Generative Adversarial Networks for Financial Trading Strategies Fine-Tuning and Combination (2019)**
+
+**Adriano Soares Koshiyama, Applications of Machine Learning Methods in Financial Markets , PHD Thesis**
++ https://discovery.ucl.ac.uk/id/eprint/10110310/1/Adriano%20Koshiyama%20-%20PhD%20Thesis.pdf
 
 
 **Can we predict a market regime from correlation matrix features?**
@@ -215,6 +248,23 @@ https://arxiv.org/pdf/2007.04838.pdf
 **A Data-driven Market Simulator for Small Data Environments**
 https://arxiv.org/abs/2006.14498
 
+
+**Conditional Sig-Wasserstein GANs for Time Series Generation**
+https://arxiv.org/abs/2006.05421
+
+
+**CorrGAN**
++ https://arxiv.org/abs/1910.09504
++ https://colab.research.google.com/drive/1S9qIFOGQZwHAR5-Jqm_u_EuQ2ebRidi-?usp=sharing
+
+
+# Covariance and Correlation Matrices
+
+**Cleaning large correlation matrices: Tools from Random Matrix Theory**
+https://www.sciencedirect.com/science/article/pii/S0370157316303337
+
+**A review of two decades of correlations, hierarchies, networks and clusteringin financial markets**
+https://arxiv.org/pdf/1703.00485.pdf
 
 
 
@@ -233,6 +283,9 @@ https://www.natixis.com/natixis/en/lukas-benedikt-fiechtner-s-thesis-risk-manage
 + Natixis Prize 2020
 
 
+**Nikolay Nikolaev, Deep Cleaning of Covariance Matrices for Portfolio Allocation**
++ Linkedin article: https://www.linkedin.com/pulse/deep-cleaning-covariance-matrices-portfolio-nikolay-nikolaev/
++ Essentially, use Autoencoder to clean / learn covariance matrix as opposed to shrinkage / Random Matrix Theory. Not a lot of exposition other than 
 
 
 # Market Microstructure
@@ -261,8 +314,15 @@ https://arxiv.org/pdf/2008.09481.pdf
 Autoencoder on daily, weekly, monthly features, weight initialisations based on restricted boltzmann machine
 
 **Adaptive trading strategies across liquidity pools, Baldacci, Manzuk (2020)**
-https://arxiv.org/pdf/2008.07807.pdf
- Risk 2021 Rising stars in quant finance
++https://arxiv.org/pdf/2008.07807.pdf
++ Risk 2021 Rising stars in quant finance
+
+**Deep Investing in Kyle's Single Period Model**
+https://arxiv.org/abs/2006.13889
+
+**Phase Transitions in Kyle’s Model with MarketMaker Profit Incentives**
+
+Thierry Foucalt
 
 
 # Limit Order Book
@@ -295,6 +355,10 @@ Code Samples:
 + https://github.com/jessgess/deep-learning-for-order-book-price-and-movement-predictions
 + https://github.com/FSUHeting/DL_LOB_Trading_and_MidPirce_Movement
 
+**Phil Stubbings - Visualising Limit Order Books**
++ http://parasec.net/transmission/order-book-visualisation/#data
+
+
 # Quant Culture
 
 + The Man Who solved the market
@@ -314,18 +378,33 @@ https://arxiv.org/pdf/1804.05394.pdf
 **Offline Algorithms for Low Frequency Trading**
 https://queue.acm.org/detail.cfm?id=3448307
 
-## Tactical Investment Algorithms	
+**Enhancing  Time  Series  Momentum  StrategiesUsing  Deep  Neural  Networks**
++ https://arxiv.org/pdf/1904.04912.pdf
 
-Marcos López de Prado
+**Marcos López de Prado, Tactical Investment Algorithms (2019)**
 
-
-September 30, 2019
 https://poseidon01.ssrn.com/delivery.php?ID=883022123123085090026094013002100126050076068001039051073091012098009018097116081095110048059008102059004068089111074119110007012020000002083004090070067084122064081036047002120072119076120028127013125114014114015118119113092120108080105001081117120&EXT=pdf
 
-Walk Forward backtests assume that theres is only one path; Resampling assumes history will repeat itself.
++ Walk Forward backtests assume that theres is only one path; Resampling assumes history will repeat itself.
+
++ Monte Carlo backtests
+
+**Trading Signals In VIX Futures**
++ https://arxiv.org/pdf/2103.02016.pdf
++ Backtest of VIX futures trading using DNNs
+
+**Design and analysis of momentum trading strategies**
++ https://arxiv.org/pdf/2101.01006.pdf
+
+## Backtesting
+
+**Harvey, C.R., Liu, Y., Backtesting (2015)**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2345489
+
+**Harvey, C.R., Liu, Y., Evaluating Trading Strategies (2014)**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2474755
 
 
-Monte Carlo backtests
 
 # Machine Learning
 
@@ -375,6 +454,13 @@ https://arxiv.org/abs/2001.01789
 **Tegner, A Probabilistic Approach toNonparametric Local Volatility**
 https://arxiv.org/pdf/1901.06021.pdf
 
+**Gatheral, J., Jacquier, A., Arbitrage-free SVI volatility surfaces (2013)**
+
+https://arxiv.org/pdf/1204.0646.pdf
+
+**Artificial Neural Networksfor SABR modelcalibration & hedging , MSc Thesis (2020)**
++ https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Thorin_MSc_Thesis_NN_SABR.pdf
+
 # Correlation Matrices
 
 **Classification of Correlation Matrices using SPDNet with Riemannian Batch Normalization**
@@ -389,18 +475,6 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3500384
 
 **The value of the high, low and close in the estimation of Brownian motion**
 https://link.springer.com/article/10.1007/s11203-020-09229-xs
-
-# Pairs Trading
-
-https://docs.google.com/presentation/d/1oFpv7OUi3W9F2D30rEQRy_Ra5ejLtlCMnk9nTJnMDr4/edit#slide=id.gb70b23aaa3_1_0
-
-
-https://drive.google.com/file/d/1ZeJD81OrKln8QDxm1sU63ivRgqXCcQbS/view
-
-https://docs.google.com/presentation/d/19xUNdddCsdXg2KizcUMVvdjhTnA8Cuq293brXB8rSWM/edit#slide=id.p
-
-https://docs.google.com/presentation/d/1Cb9NizOkvCx6-p6X3AVZyxjviub7kF2sCPy2gBiT9nk/edit#slide=id.p
-
 
 # Trend / Momentum
 
@@ -545,7 +619,11 @@ Chapter 6:
 https://arxiv.org/abs/2003.10502
 
 
-# Websites
+## Recommender Systems
+
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3386669
+
+# Websites / Resources
 
 
 **Rob Carver's Blog**
@@ -554,14 +632,32 @@ https://qoppac.blogspot.com/
 https://pythonforfinance.net/
 
 
+Vincent Zoonekynd's Blog
+http://zoonek.free.fr/blosxom/
+
+Gautier Marti
+https://gmarti.gitlab.io/
+
++ sebastian.statistics.utoronto.ca/s
+
++ https://github.com/LechGrzelak/Computational-Finance-Course
+
+
 # Places to find papers
 
+MSc Theses
 + Imperial Theses https://www.imperial.ac.uk/mathematics/postgraduate/msc/mathematical-finance/project-and-thesis/
 + Oxford Msc MCF Theses
 + Natixis Prize: https://www.natixis.com/natixis/en/prize-for-best-master-s-thesis-in-quantitative-finance-rpaz5_115028.html
++ HKUST https://lbezone.ust.hk/bib/b1106644
 
 # Data
 + https://www.sec.gov/data/foiadocsfailsdatahtm
 + https://www.cuemacro.com/2021/01/30/are-there-sources-of-free-data-for-markets/
 
+
+## Podcasts
+
++ Flirting with Models: https://blog.thinknewfound.com/podcast/s3e10-sandrine-ungari/
++ Risk.net podcast
 
