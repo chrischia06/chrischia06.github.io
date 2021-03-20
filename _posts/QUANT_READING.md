@@ -92,6 +92,23 @@ https://sci-hub.tw/https://doi.org/10.1080/713665670
 **Baitinger, E., Forecasting asset returns with network‐based metrics: A statistical and economic analysis (2021)**
 +https://onlinelibrary.wiley.com/doi/10.1002/for.2772
 
+**Verification of Lead-Lag Effect in Financial Markets by the Adaptive Elastic Net Regression**
+
++ https://ieeexplore.ieee.org/document/8992671
+
+**"Stock Price Prediction with Fluctuation Patterns using Indexing Dynamic Time Warping and k-Nearest Neighbors", 2018,**
+
++
+
+**Stock price prediction using k‐medoids clustering with indexing dynamic time warping**
++ https://onlinelibrary.wiley.com/doi/full/10.1002/ecj.12140
+
+**Cross-sectional Stock Price Prediction using Deep Learning for Actual Investment Management**
++ https://arxiv.org/ftp/arxiv/papers/2002/2002.06975.pdf	
+
+**Trader-Company Method: A Metaheuristic for Interpretable Stock Price Prediction**
+
++ https://arxiv.org/abs/2012.10215
 
 # Portfolio Optimisation
 
@@ -110,6 +127,11 @@ https://www.cfainstitute.org/en/research/multimedia/2020/machine-learning-in-por
 
 **Deep Learning for Finance: Deep Portfolios**
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2838013
+
+**Risk-Based Portfolios with Large Dynamic Covariance Matrices**
++ https://www.mdpi.com/2227-7072/6/2/52
+
+
 
 
 # ETFs
@@ -188,6 +210,9 @@ https://arxiv.org/abs/1911.05892
 + https://arxiv.org/pdf/2011.09607.pdf
 + https://github.com/AI4Finance-LLC/FinRL-Library
 
+**Policy Gradient with Expected Quadratic Utility Maximization: A New Mean-Variance Approach in Reinforcement Learning**
++ https://arxiv.org/abs/2010.01404
+
 # Autoencoders
 
 **QuantNet: Transferring Learning AcrossSystematic Trading Strategies**
@@ -224,38 +249,7 @@ https://arxiv.org/pdf/2002.02008.pdf
 + https://arxiv.org/pdf/1708.02985.pdf
 + Natixis Prize 2018
 
-# GANs
 
-
-**Quant GANs:Deep Generation of Financial Time Series Magnus Wiese1, 2,∗Robert Knobloch2Ralf Korn1, 2Peter Kretschmer (2019)**
-
-+ https://arxiv.org/pdf/1907.06673.pdf
-
-+ Temporal convolutional Neural Networks as architecture
-
-**Adriano Soares Koshiyama, Nick Firoozye, and Philip C. Treleaven. , Generative Adversarial Networks for Financial Trading Strategies Fine-Tuning and Combination (2019)**
-
-**Adriano Soares Koshiyama, Applications of Machine Learning Methods in Financial Markets , PHD Thesis**
-+ https://discovery.ucl.ac.uk/id/eprint/10110310/1/Adriano%20Koshiyama%20-%20PhD%20Thesis.pdf
-
-
-**Can we predict a market regime from correlation matrix features?**
-https://marti.ai/qfin/2020/09/04/correlation-matrix-features-market-regimes.html
-
-**Improving the Robustness of Trading Strategy Backtesting with Boltzmann Machines and Generative Adversarial Networks**
-https://arxiv.org/pdf/2007.04838.pdf
-
-**A Data-driven Market Simulator for Small Data Environments**
-https://arxiv.org/abs/2006.14498
-
-
-**Conditional Sig-Wasserstein GANs for Time Series Generation**
-https://arxiv.org/abs/2006.05421
-
-
-**CorrGAN**
-+ https://arxiv.org/abs/1910.09504
-+ https://colab.research.google.com/drive/1S9qIFOGQZwHAR5-Jqm_u_EuQ2ebRidi-?usp=sharing
 
 
 # Covariance and Correlation Matrices
@@ -371,7 +365,7 @@ Code Samples:
 
 # Algorithmic Trading
 
-**Deep optimal stopping**
+**Becker, S., Cheridito, P., and Jentzen, A. (2019).  Deep optimal stopping**
 	
 https://arxiv.org/pdf/1804.05394.pdf	
 
@@ -395,6 +389,13 @@ https://poseidon01.ssrn.com/delivery.php?ID=883022123123085090026094013002100126
 
 **Design and analysis of momentum trading strategies**
 + https://arxiv.org/pdf/2101.01006.pdf
+
+
+**A Robust Transferable Deep Learning Framework for Cross-sectional Investment Strategy (2019)**
++ https://arxiv.org/abs/1910.01491
+
+**TPLVM: Portfolio Construction by Student's t-process Latent Variable Model (2020)**
++ https://arxiv.org/abs/2002.06243
 
 ## Backtesting
 
@@ -458,8 +459,7 @@ https://arxiv.org/pdf/1901.06021.pdf
 
 https://arxiv.org/pdf/1204.0646.pdf
 
-**Artificial Neural Networksfor SABR modelcalibration & hedging , MSc Thesis (2020)**
-+ https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Thorin_MSc_Thesis_NN_SABR.pdf
+
 
 # Correlation Matrices
 

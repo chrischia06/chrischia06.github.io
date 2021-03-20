@@ -35,3 +35,9 @@ https://www.quantstart.com/articles/rough-path-theory-and-signatures-applied-to-
 + https://arxiv.org/pdf/2005.02347.pdf
 + Slides: https://github.com/asavine/CompFinLecture/blob/master/lectureSlides.pdf
 + Lecture Videos: https://www.youtube.com/channel/UC2HhWEkIoFACX3-hFMv-M3w/videos
+
+
+
+**Feature Selection in Jump Models (2021)**
+
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3805831

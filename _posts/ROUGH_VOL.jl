@@ -101,6 +101,18 @@ Turbocharging Monte Carlo pricingfor the rough Bergomi model
 
 https://arxiv.org/pdf/1708.02563.pdf
 
+Christian Bayer, Peter Friz, Jim Gatheral, Pricing Under Rough Volatility (2015) https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2554754
+
+Portfolio Optimization under Fast Mean-Reverting and Rough Fractional Stochastic Environment https://www.tandfonline.com/doi/abs/10.1080/1350486X.2019.1584532
+
+Martin Forde, Hongzhong Zhang, Asymptotics for rough stochasticvolatility models (2016) https://arxiv.org/abs/1610.08878
+
+Rough Volatility Modelling (MSc Thesis), https://www.duo.uio.no/bitstream/handle/10852/64079/ThesisXiaoyanZhang.pdf?sequence=1&isAllowed=y
+
+https://sites.google.com/site/roughvol/home/risks-1
+
+Rough stochastic volatility and applications of the rough Bergomi model (MSc Thesis) https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/TEMEL_TURKER_01421814.pdf
+
 """
 
 # ╔═╡ Cell order:

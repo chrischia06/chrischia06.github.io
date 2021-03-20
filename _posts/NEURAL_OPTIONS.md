@@ -1,26 +1,28 @@
 # Neural Options
 
-https://www.cass.city.ac.uk/__data/assets/pdf_file/0007/494080/DeepLearningExoticOptionPricingLSVOL_KB_CassBusinessSchool_2019.pdf
+## Pricing Based
 
+The key approach in these papers, is use to Neural Networks as a function to learn option prices.
 
-Black Scholes
-+ **Hutchison, Lo & Poggio(1994) “A Nonparametric Approach to Pricing and Hedging Derivatives Securities**
+**Hutchison, Lo & Poggio(1994) “A Nonparametric Approach to Pricing and Hedging Derivatives Securities**
+
++ Link: https://alo.mit.edu/wp-content/uploads/2015/06/A-Nonparametric-Approach-to-Pricing-and-Hedging-Derivative-Securities-via-Learning-Networks.pdf
+
++ Uses NNs to learn a pricing functions. Tested on the Black-Scholes market.
+
+**Valuing and Hedging American Put Options Using Neural Networks**
+
+**Liu, Oosterlee& Bohte(2019)“Pricing Options and computing implied volatilities using neural networks”**
+
 + Morelli et al (2004) "Pricing Financial Derivatives with Neural Networks”
 + Brostrom& Kristiansson(2018) “Exotic Derivatives and Deep Learning”
 + Ferguson & Green (2018) “Deep Learning Derivatives”
 
-Stochastic Vol
-+ McGhee (2018) “An Artificial Neural Network Representation of the SABRStochastic Volatility Model” (purports approach is 10000 faster)
-+ Horvath, Muguruza & Tomas (2019)“Deep Learning Volatility”
-+ Liu, Oosterlee& Bohte(2019)“Pricing Options and computing implied volatilities using neural networks”
-+ Hernandez (2017) “Model calibration with neural networks”
+
+## Deep Hedging
 
 
-## Valuing and Hedging American Put Options Using Neural Networks
-
-
-
-## Buhler, H. , Teichmann, J. Deep Hedging (2018)
+**Buhler, H. , Teichmann, J. Deep Hedging (2018)**
 + https://arxiv.org/pdf/1802.03042.pdf
 + Presentation: https://www.maths.ox.ac.uk/system/files/attachments/2019%2004%2024%20Deep%20Hedging%20Frontiers%20Imperial%202.1.pdf
 + Michal Kozyra, PHd Thesis, Natixis Prize (2019) (essentially based on Deep Hedging 2018): https://www.natixis.com/upload/docs/application/pdf/2019-10/michal_kozyra_prix_natixis_2019_du_meilleur_memoire_de_master_en_finance_quantitative.pdf
@@ -39,8 +41,9 @@ https://mp.weixin.qq.com/s/4n3kxM3YjQQgb76vraXY1w
 ## A Neural NetworkApproach to Understanding Implied Volatility Movements
 + http://www-2.rotman.utoronto.ca/~hull/downloadablepublications/VolSurfaces_NeuralNet.pdf
 
-**An Artificial Neural Network Representation of the SABRStochastic Volatility Model**
 
+**No-Transaction Band Network: A Neural NetworkArchitecture for Efficient Deep Hedging**
+https://arxiv.org/pdf/2103.01775.pdf
 
 
 
@@ -76,23 +79,27 @@ S Palmer Evolutionary Algorithms and Computational Methods for Derivatives Prici
 
 + Code: https://github.com/alexandrecarbonneau/Equal-risk-pricing-with-deep-hedging
 
-
-## J. Cao, J. Chen, J. C. Hull, and Z. Poulos Deep hedging of derivatives using reinforcement learning (2019)
-
 ## Carbonneau, A. Deep Hedging of Long-Term Financial Derivatives (2020)
 https://arxiv.org/pdf/2007.15128.pdf
 
 + Variable annuities/ equity linked insurance - "cashflows that depend on equity performance. These products often include financial guarantees to protect investorsagainst downside equity risk with benefits which can be expressed as the payoff of derivatives".  e.g. Guaranteed minimum maturity benefit is a lookback put
 
+## Reinforcement Learning Based
 
-Becker, S., Cheridito, P., and Jentzen, A. (2019).  Deep optimal stopping
+**J. Cao, J. Chen, J. C. Hull, and Z. Poulos, Deep hedging of derivatives using reinforcement learning (2019)**
+
++ https://www-2.rotman.utoronto.ca/~hull/DownloadablePublications/RL_Deep_Hedging.pdf
+
 
 # SABR
 
-## McGhee, W.A. An Artificial Neural Network Representation of the SABRStochastic Volatility Model
+
+**McGhee (2018) “An Artificial Neural Network Representation of the SABRStochastic Volatility Model”**
++  (purports approach is 10000 faster)
 
 
-## Thorin, H. (MSc Mathematics and Finance Thesis) Artificial Neural Networksfor SABR modelcalibration & hedging
+**Artificial Neural Networksfor SABR modelcalibration & hedging , MSc Thesis (2020)**
++ https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Thorin_MSc_Thesis_NN_SABR.pdf
 
 
 
@@ -134,14 +141,31 @@ Becker, S., Cheridito, P., and Jentzen, A. (2019).  Deep optimal stopping
 
 + Multivariate approximation using radial basis functions vs using artificial neural networks with specific attention to derivatives pricing https://www.academia.edu/44414654/Multivariate_approximation_using_radial_basis_functions_vs_using_artificial_neural_networks_with_specific_attention_to_derivatives_pricing
 
-+ **KrigHedge: Gaussian Process Surrogates for Delta Hedging** 
-https://arxiv.org/abs/2010.08407
 
 
-## Differential Machine Learning (2020)
-+ Essentially add differentials as training data. In the context of option pricing, this allows the Neural network to learn the Greeks as well as the price.
+
+**Differential Machine Learning (2020)**
++ Essentially add differentials as training <data></data>a. In the context of option pricing, this allows the Neural network to learn the Greeks as well as the price.
+
+A DEEPLEARNING APPROACH TO  EXOTIC OPTION PRICINGUNDER LSVOL, Babbar,K. (Presentation)
+
+https://www.cass.city.ac.uk/__data/assets/pdf_file/0007/494080/DeepLearningExoticOptionPricingLSVOL_KB_CassBusinessSchool_2019.pdf
+
+
+## Volatility
+
+**Horvath, Muguruza & Tomas (2019)“Deep Learning Volatility”**
+
+**Autoencoders: A Hands Off Approach to Volatility, Working Paper (with Maxime Bergeron, Nicholas Fung, and Zissis Poulos)**
+
++ https://www-2.rotman.utoronto.ca/~hull/DownloadablePublications/Autoencoders_Vol_Sfces.pdf
+
+**Hernandez (2017) “Model calibration with neural networks”**
+
+**A Neural Network Approach to Understanding Implied Volatility Movements (2019)**
++ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3288067
+
 
 + Bloch https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=802495
 + Horvath https://sites.google.com/site/blankanorahorvath/home?authuser=0
 + Teichmann https://people.math.ethz.ch/~jteichma/
-

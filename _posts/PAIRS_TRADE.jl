@@ -44,6 +44,14 @@ Tim Leung, Optimal Mean Reversion Trading with Transaction Costs and Stop-Loss E
 https://arxiv.org/abs/1411.5062
 
 
+
+
+Statistical Arbitrage Strategy in Multi-Asset Market Using Time Series Analysis
+
+
+https://www.scirp.org/journal/paperinformation.aspx?paperid=100361
+
+
 """
 
 # ╔═╡ Cell order:
